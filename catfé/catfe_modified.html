@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel = "stylesheet" href = "catfé.css">
+    <title>#MENU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Lobster&family=Pacifico&family=Press+Start+2P&family=Roboto:wght@100&family=Waterfall&display=swap"    rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <div class = "ln">
+        <div class ="lni1"><img src = "IMG/catfe.png" alt = "LOGO" id = "logo"></div>
+        <div class = "lini2"><p class = "name">CATFÉ</p></div>
+      </div>
+      <ul class = "home">
+        <li><a href = "#">HOME </a></li>
+        <li><a href = "#">PRODUCTOS </a></li>
+        <li><a href = "#">PAQUETES </a></li>
+        <li><a href = "#">CONTACTOS </a></li>
+
+        <!-- Edit -->
+        <li><span style="color: #fff;"> | </span></li>
+        <li>
+            <span style="color: #fff;">Total: 
+                <span id="total">Vacío</span>
+            </span>
+        </li>
+
+        <li><span style="color: #fff;"> | </span></li>
+        <li><a href="#" onclick="resetear();actualizar(0);">[Resetear]</a></li>
+        <!-- End -->
+
+      </ul>
+    </header>
+
+    <section id = "main">
+      <main>
+        <div class = "rad"></div>
+        <h2 id = "P">PRODUCTOS.</h2>
+        <br>
+        <div id = "msg">
+        <p id = "msg1">Elije tu BEBIDA, POSTRE o ANTOJITO, favorito*
+        </p>
+        <p id = "msg2">CATEGORIAS:</p>
+      </div>
+        <div id = "cards">
+          <!-- Edit -->
+          <a href="#" onclick="sumar(30);actualizar(30);"><img src = "IMG/CARD4.png" alt = "card1" id = "c1"></a>
+          <a href="#" onclick="sumar(30);actualizar(30);"><img src = "IMG/CARD5.png" alt = "card2" id = "c2"></a>
+          <a href="#" onclick="sumar(40);actualizar(40);"><img src = "IMG/CARD6.png" alt = "card3" id = "c3"></a>
+          <a href="#" onclick="sumar(99);actualizar(99);"><img src = "IMG/CARD1.png" alt = "card4" id = "c4"></a>
+          <a href="#" onclick="sumar(10);actualizar(10);"><img src = "IMG/CARD2.png" alt = "card5" id = "c5"></a>
+          <a href="#" onclick="sumar(20);actualizar(20);"><img src = "IMG/CARD3.png" alt = "card6" id = "c6"></a>
+          <!-- End -->
+        </div>
+
+        <P id = "point">.</P>
+
+        <div class = "rad1"></div>
+        <h2 id = "PA">PAQUETES.</h2>
+        <br>
+        <div id = "msg">
+        <p id = "msg11">Elije tu PAQUETE, favorito*
+        </p>
+        <p id = "msg22">CATEGORIAS:</p>
+      </div> 
+
+      <!-- Edit -->
+        <div id = "cards1">
+          <div id = "vid">
+            <div id = "v2">
+              <a href = "#" class="da" onclick="sumar(65);actualizar(65);">
+                <video autoplay muted>
+                  <source src = "IMG/paquete1.mp4" type = "video/mp4">
+                </video>
+              </a>
+              <a href = "#" class="da" onclick="sumar(65);actualizar(65);">
+                <video autoplay muted>
+                  <source src = "IMG/paquete2.mp4" type = "video/mp4">
+                </video>
+              </a>
+            </div>
+          <br>
+          <div id = "v2">
+            <a href = "#" class="da" onclick="sumar(155);actualizar(155);">
+              <video autoplay muted>
+                <source src = "IMG/paquete3.mp4" type = "video/mp4">a
+              </video>
+            </a>
+            <a href = "#" class="da" onclick="sumar(120);actualizar(120);">
+              <video autoplay muted>
+                <source src = "IMG/paquete4.mp4" type = "video/mp4">
+              </video>
+            </a>
+          </div>
+          <br>
+          <div id = "v2">
+            <a href = "#" class="da" onclick="sumar(30);actualizar(30);">
+              <video autoplay muted>
+                <source src = "IMG/paquete5.mp4" type = "video/mp4">
+              </video>
+            </a>
+            <a href = "#" class="da" onclick="sumar(35);actualizar(35);">
+              <video autoplay muted>
+                <source src = "IMG/paquete6.mp4" type = "video/mp4">
+              </video>
+            </a>
+          </div>
+          <br>
+          <div id = "v2">
+            <a href = "#" class="da" onclick="sumar(50);actualizar(50);">
+              <video autoplay muted>
+                <source src = "IMG/paquete7.mp4" type = "video/mp4">
+              </video>
+            </a>
+            <a href = "#" class="da" onclick="sumar(190);actualizar(190);">
+              <video autoplay muted>
+                <source src = "IMG/paquete8.mp4" type = "video/mp4">
+              </video>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+      </main>
+    </section>
+
+    <footer></footer>
+    
+    <!-- Edit -->
+    <script src="funciones.js"></script>
+    <!-- End -->
+
+  </body>
+</html> 
