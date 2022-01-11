@@ -74,7 +74,7 @@ body {
 }
 
 #main {
-    height: 2000px;
+    height: 4000px;
     display: flex;
     justify-content: center;
 }
@@ -149,6 +149,7 @@ main {
 }
 
 #cards1 {
+    height: 1400px;
     background-color: rgba(255, 0, 64, 0.747);
 }
 
@@ -157,10 +158,6 @@ main {
     margin-top: 57px;
 }
 
-#cards1 a {
-    height: 245px;
-    margin-top: 57px;
-}
 
 .rad, .rad1 {
     margin-top: 73px;
@@ -176,7 +173,34 @@ main {
 .rad1 {
     margin-top: 195px;
     background-color: rgba(0, 255, 213, 0.822);
+}
 
+#vid {
+    display: flex;
+    width: 50%;
+    float: left;
+    margin-top: 45px;
+    margin-left: -155px;
+    flex-direction: column;
+}
+
+#v2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+video {
+    display: flex;
+    margin-left: -355px;
+    margin-top: 20px;
+    width: 900px;
+    height: 300px;
+}
+
+.da {
+    width: 100px;
+    margin-right: 470px;
 }
 
 #c1, #c2, #c3, #c4, #c5, #c6 {
