@@ -1,0 +1,266 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 14, 14);
+    margin-top: -15.6px;
+    margin-left: -7.6px;
+    margin-right: -7.5px;
+}
+
+.ln {
+    width: 400px;
+    height: 100px;
+    display: flex;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.name {
+    margin-top: 15px;
+    margin-bottom: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: blanchedalmond;
+}
+
+.home {
+    float: right;
+
+    margin-top: -40px;
+    margin-right: 10px;
+}
+
+.s {
+    color: rgba(29, 29, 29, 0.404);
+}
+
+li {
+    display: table-cell;
+    
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+
+
+
+    
+    font-family: 'Bebas Neue', cursive;
+}
+
+li:hover {
+    background-color: cornsilk;
+    border-radius: 2px;
+}
+
+li:hover a{
+    color: rgb(15, 15, 15);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#main {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding-top: 51px;
+}
+
+#msg {
+    margin-left: -900px;
+    margin-bottom: -53.1px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#msg1, #msg2{
+    color: rgb(207, 207, 207);
+    margin: auto;
+}
+
+#msg2{
+    color: rgba(9, 216, 199, 0.781);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#msg11, #msg22{
+    color: rgb(59, 59, 59);
+    margin: auto;
+}
+
+#msg22{
+    color: rgba(216, 9, 78, 0.904);
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+#P, #PA {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-bottom: 0.2px;
+
+    background-color: rgb(43, 43, 43);
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#point {
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: -80px;
+}
+
+#PA {
+    margin-top: 157px;
+}
+
+#cards, #cards1 {
+    display: flex;
+    width: 1265.5px;
+    height: 455px;
+    background-color: rgba(255, 217, 0, 0.582);
+    border-radius: 15px;
+    justify-content: center;
+}
+
+#cards1 {
+    background-color: rgba(255, 0, 64, 0.747);
+}
+
+#cards a {
+    height: 245px;
+    margin-top: 57px;
+}
+
+#cards1 a {
+    height: 245px;
+    margin-top: 57px;
+}
+
+.rad, .rad1 {
+    margin-top: 73px;
+    margin-bottom: -526.8px; 
+    border-top-right-radius: 180px;
+    border-bottom-right-radius: 180px;
+    float: left;
+    width: 500px;
+    height: 455px;
+    background-color: rgb(112, 25, 66);
+}
+
+.rad1 {
+    margin-top: 195px;
+    background-color: rgba(0, 255, 213, 0.822);
+
+}
+
+#c1, #c2, #c3, #c4, #c5, #c6 {
+    padding-right: 10px;
+    padding-left: 10px ;
+    padding-top: 97px;
+    width: 190px;
+    height: 260px;
+}
+
+#c1:hover {
+    padding-top: 14px;
+    transition: 0.8s;
+    width: 200px;
+    height: 270px;
+}
+#c2:hover {
+    padding-top: 24px;
+    transition: 0.8s;
+    width: 200px;
+    height: 270px;
+}
+#c3:hover {
+    padding-top: 34px;
+    transition: 0.8s;
+    width: 200px;
+    height: 270px;
+}
+#c4:hover {
+    padding-top: 34px;
+    transition: 0.8s;
+    width: 200px;
+    height: 270px;
+}
+#c5:hover {
+    padding-top: 24px;
+    transition: 0.8s;
+    width: 200px;
+    height: 270px;
+}
+#c6:hover {
+    padding-top: 14px;
+    transition: 0.8s;
+    width: 200px;
+    height: 270px;
+}
+
+@media screen and (max-width: 650px){
+    .name{
+        font-size: 40px;
+    }
+
+    .lini2 {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    header{
+        height: 110px;
+    }
+
+    ul {
+        margin-top: -25px;
+    }
+
+    .name{
+        font-size: 40px;
+    }
+
+    .lini2 {
+        height: 50px;
+    }
+
+    #logo {
+    width: 70px;
+    height: 70px;
+
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    }
+
+    .lni1 {
+        height: 71px;
+    }
+}
